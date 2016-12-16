@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center_horizontal" >
+
+    <ImageButton
+        android:id="@+id/benchButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_01" />
+
+    <ImageButton
+        android:id="@+id/benchButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton1"
+        android:layout_toRightOf="@+id/benchButton1"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_02" />
+
+    <ImageButton
+        android:id="@+id/benchButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton2"
+        android:layout_toRightOf="@+id/benchButton2"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_03" />
+
+    <ImageButton
+        android:id="@+id/benchButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton3"
+        android:layout_toRightOf="@+id/benchButton3"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_04" />
+
+    <ImageButton
+        android:id="@+id/benchButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/benchButton1"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_05" />
+
+    <ImageButton
+        android:id="@+id/benchButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/benchButton2"
+        android:layout_alignTop="@+id/benchButton5"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_06" />
+
+    <ImageButton
+        android:id="@+id/benchButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/benchButton3"
+        android:layout_alignTop="@+id/benchButton6"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_07" />
+
+    <ImageButton
+        android:id="@+id/benchButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton7"
+        android:layout_toRightOf="@+id/benchButton7"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_08" />
+
+    <ImageButton
+        android:id="@+id/benchButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/benchButton5"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_09" />
+
+    <ImageButton
+        android:id="@+id/benchButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton9"
+        android:layout_toRightOf="@+id/benchButton9"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_10" />
+
+    <ImageButton
+        android:id="@+id/benchButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/benchButton7"
+        android:layout_below="@+id/benchButton7"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_11" />
+
+    <ImageButton
+        android:id="@+id/benchButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/benchButton11"
+        android:layout_toRightOf="@+id/benchButton7"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_12" />
+
+    <ImageButton
+        android:id="@+id/benchButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/benchButton9"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_13" />
+
+    <ImageButton
+        android:id="@+id/benchButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/benchButton13"
+        android:layout_toRightOf="@+id/benchButton13"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_14" />
+
+    <ImageButton
+        android:id="@+id/benchButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/benchButton14"
+        android:layout_alignRight="@+id/benchButton11"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_15" />
+
+    <ImageButton
+        android:id="@+id/benchButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/benchButton15"
+        android:layout_alignRight="@+id/benchButton12"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/bench_16" />
+
+    <ImageButton
+        android:id="@+id/benchButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/benchButton16"
+        android:layout_below="@+id/benchButton16"
+        android:background="#0000FF"
+        android:padding="1dp"
+        android:src="@drawable/benchback" />
+
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center_horizontal" >
+
+    <ImageButton
+        android:id="@+id/seaButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_01" />
+
+    <ImageButton
+        android:id="@+id/seaButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seaButton1"
+        android:layout_toRightOf="@+id/seaButton1"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_02" />
+
+    <ImageButton
+        android:id="@+id/seaButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seaButton2"
+        android:layout_toRightOf="@+id/seaButton2"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_03" />
+
+    <ImageButton
+        android:id="@+id/seaButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seaButton3"
+        android:layout_toRightOf="@+id/seaButton3"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_04" />
+
+    <ImageButton
+        android:id="@+id/seaButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seaButton1"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_05" />
+
+    <ImageButton
+        android:id="@+id/seaButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seaButton5"
+        android:layout_toRightOf="@+id/seaButton5"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_06" />
+
+    <ImageButton
+        android:id="@+id/seaButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seaButton2"
+        android:layout_toRightOf="@+id/seaButton2"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_07" />
+
+    <ImageButton
+        android:id="@+id/seaButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton4"
+        android:layout_alignTop="@+id/seaButton7"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_08" />
+
+    <ImageButton
+        android:id="@+id/seaButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seaButton5"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_09" />
+
+    <ImageButton
+        android:id="@+id/seaButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton6"
+        android:layout_alignTop="@+id/seaButton9"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_10" />
+
+    <ImageButton
+        android:id="@+id/seaButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton7"
+        android:layout_alignTop="@+id/seaButton10"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_11" />
+
+    <ImageButton
+        android:id="@+id/seaButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton8"
+        android:layout_alignTop="@+id/seaButton11"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_12" />
+
+    <ImageButton
+        android:id="@+id/seaButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seaButton9"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_13" />
+
+    <ImageButton
+        android:id="@+id/seaButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton10"
+        android:layout_alignTop="@+id/seaButton13"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_14" />
+
+    <ImageButton
+        android:id="@+id/seaButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seaButton11"
+        android:layout_below="@+id/seaButton11"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_15" />
+
+    <ImageButton
+        android:id="@+id/seaButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seaButton15"
+        android:layout_toRightOf="@+id/seaButton15"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seahorse_16" />
+
+    <ImageButton
+        android:id="@+id/seaButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seaButton15"
+        android:layout_toRightOf="@+id/seaButton15"
+        android:background="#FFFFFF"
+        android:padding="1dp"
+        android:src="@drawable/seaback" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+     > 
+  
+    
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/tbo" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/tbt" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignTop="@+id/imageButton3"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/tbfo" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/none" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/tbth" />
+
+  
+       
+      
+ 
+
+</RelativeLayout>

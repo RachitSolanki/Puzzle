@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center_horizontal" >
+
+    <ImageButton
+        android:id="@+id/autumnButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_01" />
+
+    <ImageButton
+        android:id="@+id/autumnButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/autumnButton1"
+        android:layout_toRightOf="@+id/autumnButton1"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_02" />
+
+    <ImageButton
+        android:id="@+id/autumnButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/autumnButton2"
+        android:layout_toRightOf="@+id/autumnButton2"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_03" />
+
+    <ImageButton
+        android:id="@+id/autumnButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/autumnButton1"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_04" />
+
+    <ImageButton
+        android:id="@+id/autumnButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/autumnButton2"
+        android:layout_alignTop="@+id/autumnButton4"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_05" />
+
+    <ImageButton
+        android:id="@+id/autumnButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/autumnButton3"
+        android:layout_alignTop="@+id/autumnButton5"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_06" />
+
+    <ImageButton
+        android:id="@+id/autumnButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/autumnButton4"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_07" />
+
+    <ImageButton
+        android:id="@+id/autumnButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/autumnButton5"
+        android:layout_alignTop="@+id/autumnButton7"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_08" />
+
+    <ImageButton
+        android:id="@+id/autumnButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/autumnButton6"
+        android:layout_alignTop="@+id/autumnButton8"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumn_09" />
+
+    <ImageButton
+        android:id="@+id/autumnButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autumnButton8"
+        android:layout_toRightOf="@+id/autumnButton8"
+        android:background="#90FF90"
+        android:padding="1dp"
+        android:src="@drawable/autumnback" />
+
+</RelativeLayout>

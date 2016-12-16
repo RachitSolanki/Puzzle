@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back2" >
+
+    <ImageButton
+        android:id="@+id/penguinButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_01" />
+
+    <ImageButton
+        android:id="@+id/penguinButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/penguinButton1"
+        android:layout_toRightOf="@+id/penguinButton1"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_02" />
+
+    <ImageButton
+        android:id="@+id/penguinButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/penguinButton2"
+        android:layout_toRightOf="@+id/penguinButton2"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_03" />
+
+    <ImageButton
+        android:id="@+id/penguinButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/penguinButton3"
+        android:layout_toRightOf="@+id/penguinButton3"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_04" />
+
+    <ImageButton
+        android:id="@+id/penguinButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/penguinButton1"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_05" />
+
+    <ImageButton
+        android:id="@+id/penguinButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton2"
+        android:layout_alignTop="@+id/penguinButton5"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_06" />
+
+    <ImageButton
+        android:id="@+id/penguinButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/penguinButton6"
+        android:layout_toRightOf="@+id/penguinButton6"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_07" />
+
+    <ImageButton
+        android:id="@+id/penguinButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton4"
+        android:layout_alignTop="@+id/penguinButton7"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_08" />
+
+    <ImageButton
+        android:id="@+id/penguinButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/penguinButton5"
+        android:layout_toLeftOf="@+id/penguinButton6"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_09" />
+
+    <ImageButton
+        android:id="@+id/penguinButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton6"
+        android:layout_alignTop="@+id/penguinButton9"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_10" />
+
+    <ImageButton
+        android:id="@+id/penguinButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/penguinButton7"
+        android:layout_toLeftOf="@+id/penguinButton8"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_11" />
+
+    <ImageButton
+        android:id="@+id/penguinButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton8"
+        android:layout_alignTop="@+id/penguinButton11"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_12" />
+
+    <ImageButton
+        android:id="@+id/penguinButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/penguinButton9"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_13" />
+
+    <ImageButton
+        android:id="@+id/penguinButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton10"
+        android:layout_alignTop="@+id/penguinButton13"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_14" />
+
+    <ImageButton
+        android:id="@+id/penguinButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/penguinButton14"
+        android:layout_toRightOf="@+id/penguinButton14"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_15" />
+
+    <ImageButton
+        android:id="@+id/penguinButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/penguinButton12"
+        android:layout_alignTop="@+id/penguinButton15"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguin_16" />
+
+    <ImageButton
+        android:id="@+id/penguinButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/penguinButton16"
+        android:layout_below="@+id/penguinButton15"
+        android:background="#000000"
+        android:padding="1dp"
+        android:src="@drawable/penguinback" />
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center_horizontal" >
+
+    <ImageButton
+        android:id="@+id/parrotButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_01" />
+
+    <ImageButton
+        android:id="@+id/parrotButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/parrotButton1"
+        android:layout_toRightOf="@+id/parrotButton1"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_02" />
+
+    <ImageButton
+        android:id="@+id/parrotButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/parrotButton2"
+        android:layout_toRightOf="@+id/parrotButton2"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_03" />
+
+    <ImageButton
+        android:id="@+id/parrotButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/parrotButton1"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_04" />
+
+    <ImageButton
+        android:id="@+id/parrotButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/parrotButton2"
+        android:layout_alignTop="@+id/parrotButton4"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_05" />
+
+    <ImageButton
+        android:id="@+id/parrotButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/parrotButton3"
+        android:layout_alignTop="@+id/parrotButton5"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_06" />
+
+    <ImageButton
+        android:id="@+id/parrotButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/parrotButton4"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_07" />
+
+    <ImageButton
+        android:id="@+id/parrotButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parrotButton4"
+        android:layout_toRightOf="@+id/parrotButton4"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_08" />
+
+    <ImageButton
+        android:id="@+id/parrotButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/parrotButton8"
+        android:layout_toRightOf="@+id/parrotButton8"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrots_09" />
+
+    <ImageButton
+        android:id="@+id/parrotButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/parrotButton9"
+        android:layout_below="@+id/parrotButton9"
+        android:background="#00FF00"
+        android:padding="1dp"
+        android:src="@drawable/parrotback" />
+
+</RelativeLayout>

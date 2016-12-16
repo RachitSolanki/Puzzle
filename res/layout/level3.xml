@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/dessertButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_01" />
+
+    <ImageButton
+        android:id="@+id/dessertButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dessertButton1"
+        android:layout_toRightOf="@+id/dessertButton1"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_02" />
+
+    <ImageButton
+        android:id="@+id/dessertButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dessertButton2"
+        android:layout_toRightOf="@+id/dessertButton2"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_03" />
+
+    <ImageButton
+        android:id="@+id/dessertButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dessertButton1"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_04" />
+
+    <ImageButton
+        android:id="@+id/dessertButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dessertButton4"
+        android:layout_toRightOf="@+id/dessertButton4"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_05" />
+
+    <ImageButton
+        android:id="@+id/dessertButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dessertButton3"
+        android:layout_alignTop="@+id/dessertButton5"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_06" />
+
+    <ImageButton
+        android:id="@+id/dessertButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dessertButton5"
+        android:layout_toRightOf="@+id/dessertButton8"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_09" />
+
+    <ImageButton
+        android:id="@+id/dessertButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dessertButton4"
+        android:layout_alignTop="@+id/dessertButton9"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_07" />
+
+    <ImageButton
+        android:id="@+id/dessertButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dessertButton9"
+        android:layout_toLeftOf="@+id/dessertButton6"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessert_08" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dessertButton9"
+        android:layout_toRightOf="@+id/dessertButton8"
+        android:background="#808080"
+        android:padding="1dp"
+        android:src="@drawable/dessertback" />
+
+</RelativeLayout>

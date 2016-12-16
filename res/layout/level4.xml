@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back2" >
+
+    <ImageButton
+        android:id="@+id/rainButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_01" />
+
+    <ImageButton
+        android:id="@+id/rainButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rainButton1"
+        android:layout_toRightOf="@+id/rainButton1"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_02" />
+
+    <ImageButton
+        android:id="@+id/rainButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rainButton2"
+        android:layout_toRightOf="@+id/rainButton2"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_03" />
+
+    <ImageButton
+        android:id="@+id/rainButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rainButton1"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_04" />
+
+    <ImageButton
+        android:id="@+id/rainButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rainButton4"
+        android:layout_toRightOf="@+id/rainButton4"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_05" />
+
+    <ImageButton
+        android:id="@+id/rainButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rainButton5"
+        android:layout_toRightOf="@+id/rainButton5"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_06" />
+
+    <ImageButton
+        android:id="@+id/rainButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rainButton4"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_07" />
+
+    <ImageButton
+        android:id="@+id/rainButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rainButton7"
+        android:layout_toRightOf="@+id/rainButton7"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_08" />
+
+    <ImageButton
+        android:id="@+id/rainButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rainButton5"
+        android:layout_toRightOf="@+id/rainButton5"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rain_09" />
+
+    <ImageButton
+        android:id="@+id/rainButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rainButton8"
+        android:layout_toRightOf="@+id/rainButton8"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/rainback" />
+
+</RelativeLayout>

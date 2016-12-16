@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center" >
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/birdsecond" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton6"
+        android:layout_toLeftOf="@+id/imageButton7"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/birdthird" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton8"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/birdzfouth" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_below="@+id/imageButton9"
+        android:padding="1dp"
+        android:src="@drawable/nonebird" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="92dp"
+        android:background="#EE8080"
+        android:padding="1dp"
+        android:src="@drawable/birdfirst" />
+
+</RelativeLayout>
